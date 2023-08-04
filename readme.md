@@ -1,7 +1,7 @@
 
 <!-- Banner Image -->
 <p align="center">
-  <img src="[https://1.bp.blogspot.com/-7A4WynwLsM...](https://t4.ftcdn.net/jpg/02/78/37/47/360_F_278374738_ypRn0utOVnebuhmpSrDiwkzFsdqEm0aa.jpg)" alt="Banner" />
+  <img src="https://t4.ftcdn.net/jpg/02/78/37/47/360_F_278374738_ypRn0utOVnebuhmpSrDiwkzFsdqEm0aa.jpg" alt="Banner" />
 </p>
 
 <!-- Introduction -->
@@ -9,7 +9,7 @@
 <h3 align="center">Passionate Frontend Web Developer from India</h3>
 
 <!-- Profile Image -->
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/116207..." />
+<img align="right" alt="Coding" width="400" src="https://www.fegno.com/wp-content/uploads/2022/03/web-development-company-in-kochi.gif" />
 
 
 <p align="left"> <a href="https://twitter.com/imtiyazakiwat" target="blank"><img src="https://img.shields.io/twitter/follow/imtiyazakiwat?logo=twitter&style=for-the-badge" alt="imtiyazakiwat" /></a> </p>
