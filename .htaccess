@@ -1,4 +1,5 @@
 Options +FollowSymLinks
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^imtiyazakiwat\.in$ [NC]
-RewriteRule ^(.*)$ http://www.imtakiwat.online/$1 [R=301,L]
+
+# Redirect from imtiyazakiwat.in to imtakiwat.online
+Redirect 302 / http://www.imtakiwat.online
