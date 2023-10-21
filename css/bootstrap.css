@@ -510,6 +510,12 @@ mark,
   margin-top: 0;
 }
 
+header-img-fluid{
+  max-width: 265%;
+  height: 602px;
+  margin-top: -89px;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
