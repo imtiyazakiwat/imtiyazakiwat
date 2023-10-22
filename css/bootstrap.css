@@ -1196,6 +1196,7 @@ pre code {
   .col-lg-6 {
     flex: 0 0 50%;
     max-width: 50%;
+    padding-left: 94px;
   }
 
   .col-lg-7 {
