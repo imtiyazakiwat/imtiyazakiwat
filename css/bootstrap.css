@@ -566,8 +566,9 @@ mark,
 @media (max-width: 800px) {
   .header .header-img-fluid {
     max-width: 100%; /* Set the maximum width to 100% for smaller screens */
-    height: 350px; /* Allow the height to adjust proportionally */
+     /* Allow the height to adjust proportionally */
     margin-top: 0; /* Remove the negative margin-top for better positioning */
+    object-fit: cover;
   }
 }
 
