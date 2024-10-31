@@ -16,7 +16,7 @@
 
 - 🌱 I’m currently learning **Django , Angular**
 
-- 👨‍💻 All of my projects are available at [https://imtiyazakiwat.online](https://imtiyazakiwat.online)
+- 👨‍💻 All of my projects are available at [https://iamimtiyaz.online](https://imtiyazakiwat.online)
 
 - 💬 Ask me about **React , Next.js**
 
