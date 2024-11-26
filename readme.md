@@ -16,13 +16,13 @@
 
 - 🌱 I’m currently learning **Django , Angular**
 
-- 👨‍💻 All of my projects are available at [https://iamimtiyaz.online](https://imtiyazakiwat.online)
+- 👨‍💻 All of my projects are available at [https://iamimtiyaz.online](https://iamimtiyaz.online)
 
 - 💬 Ask me about **React , Next.js**
 
 - 📫 How to reach me **imtiyazakiwat0@gmail.com**
 
-- 📄 Know about my experiences [https://imtiyazakiwat.online/Resume](https://imtiyazakiwat.online/Resume)
+- 📄 Know about my experiences [https://imtiyazakiwat.online/Resume](https://iamimtiyaz.online/Resume)
 
 - ⚡ Fun fact **Crafted code on a potato-powered laptop!**
 
