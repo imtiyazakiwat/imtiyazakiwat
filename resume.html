@@ -1,13 +1,500 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Imtiyaz Akiwat | CTO & AI Engineer</title>
+    <meta name="description" content="Professional resume of Imtiyaz Akiwat - Chief Technology Officer at Nighan2 Labs.">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #0ea5e9;
+            --primary-dark: #0284c7;
+            --text-dark: #1e293b;
+            --text-medium: #475569;
+            --text-light: #64748b;
+            --border: #e2e8f0;
+            --bg-light: #f8fafc;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.5;
+            color: var(--text-dark);
+            background: var(--bg-light);
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        /* Navigation */
+        .resume-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            padding: 12px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            z-index: 100;
+        }
+        
+        .nav-back {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-medium);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+        
+        .nav-back:hover { color: var(--primary); }
+        
+        .nav-actions { display: flex; gap: 10px; }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.2s;
+            border: none;
+            font-family: inherit;
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .btn-primary:hover { background: var(--primary-dark); }
+        
+        .btn-secondary {
+            background: white;
+            color: var(--text-medium);
+            border: 1px solid var(--border);
+        }
+        
+        .btn-secondary:hover { border-color: var(--primary); color: var(--primary); }
+        
+        /* Resume Container */
+        .resume-container {
+            max-width: 850px;
+            margin: 70px auto 40px;
+            padding: 20px;
+        }
+        
+        .resume {
+            background: white;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            border-radius: 4px;
+        }
+        
+        .resume-content {
+            padding: 50px 60px;
+        }
+        
+        /* Header */
+        .resume-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .resume-name {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 6px;
+            letter-spacing: 0.5px;
+        }
+        
+        .resume-tagline {
+            font-size: 1.05rem;
+            color: var(--text-dark);
+            font-weight: 500;
+            margin-bottom: 12px;
+        }
+        
+        .resume-contact {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 6px 16px;
+            font-size: 0.85rem;
+            color: var(--text-medium);
+        }
+        
+        .resume-contact a {
+            color: var(--text-medium);
+            text-decoration: none;
+        }
+        
+        .resume-contact a:hover { color: var(--primary); }
+        
+        .contact-separator {
+            color: var(--text-light);
+        }
+        
+        /* Section */
+        .section {
+            margin-bottom: 28px;
+        }
+        
+        .section-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: center;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--primary);
+        }
+        
+        /* Summary */
+        .summary-text {
+            font-size: 0.9rem;
+            color: var(--text-medium);
+            line-height: 1.7;
+            text-align: justify;
+        }
+        
+        /* Key Achievements */
+        .achievements-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 8px;
+        }
+        
+        .achievement-item h4 {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 4px;
+        }
+        
+        .achievement-item p {
+            font-size: 0.8rem;
+            color: var(--text-medium);
+            line-height: 1.5;
+        }
+        
+        /* Experience */
+        .experience-item {
+            margin-bottom: 22px;
+        }
+        
+        .experience-item:last-child { margin-bottom: 0; }
+        
+        .exp-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 4px;
+        }
+        
+        .exp-company {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+        
+        .exp-location {
+            font-size: 0.85rem;
+            color: var(--text-medium);
+            text-align: right;
+        }
+        
+        .exp-role {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+        
+        .exp-date {
+            font-size: 0.85rem;
+            color: var(--text-medium);
+        }
+        
+        .exp-list {
+            list-style: disc;
+            padding-left: 20px;
+            margin: 0;
+        }
+        
+        .exp-list li {
+            font-size: 0.85rem;
+            color: var(--text-medium);
+            line-height: 1.6;
+            margin-bottom: 5px;
+            padding-left: 4px;
+        }
+        
+        /* Education */
+        .education-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+        
+        .education-item:last-child { margin-bottom: 0; }
+        
+        .edu-school {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+        
+        .edu-degree {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--primary);
+        }
+        
+        .edu-meta {
+            text-align: right;
+        }
+        
+        .edu-location {
+            font-size: 0.85rem;
+            color: var(--text-medium);
+        }
+        
+        .edu-year {
+            font-size: 0.85rem;
+            color: var(--text-medium);
+        }
+        
+        /* Skills */
+        .skills-text {
+            font-size: 0.85rem;
+            color: var(--text-medium);
+            line-height: 1.8;
+            text-align: center;
+        }
+        
+        /* Print */
+        @media print {
+            body { background: white; }
+            .resume-nav { display: none !important; }
+            .resume-container { margin: 0; padding: 0; max-width: none; }
+            .resume { box-shadow: none; border-radius: 0; }
+            .resume-content { padding: 40px 50px; }
+            .resume-name { font-size: 1.75rem; }
+            .exp-list { padding-left: 18px; }
+        }
+        
+        @media (max-width: 768px) {
+            .resume-content { padding: 30px 25px; }
+            .resume-name { font-size: 1.5rem; }
+            .resume-contact { flex-direction: column; gap: 6px; }
+            .contact-separator { display: none; }
+            .achievements-grid { grid-template-columns: 1fr; gap: 12px; }
+            .exp-header, .education-item { flex-direction: column; gap: 2px; }
+            .exp-location, .edu-meta { text-align: left; }
+            .nav-actions .btn span { display: none; }
+            .nav-actions .btn { padding: 8px 12px; }
+        }
+    </style>
+</head>
 <body>
+    <nav class="resume-nav">
+        <a href="index.html" class="nav-back">
+            <i class="fas fa-arrow-left"></i>
+            <span>Back to Portfolio</span>
+        </a>
+        <div class="nav-actions">
+            <button class="btn btn-primary" onclick="window.print()">
+                <i class="fas fa-download"></i>
+                <span>Download PDF</span>
+            </button>
+        </div>
+    </nav>
 
-  <script type="text/javascript">
-    window.onload = () => {
-      window.location = "https://iamimtiyaz.online/Resume_of_ImtiyazWB2.pdf";
+    <div class="resume-container">
+        <article class="resume">
+            <div class="resume-content">
+                <!-- Header -->
+                <header class="resume-header">
+                    <h1 class="resume-name">Imtiyaz Akiwat</h1>
+                    <p class="resume-tagline">Expert leadership in AI-driven technological platforms</p>
+                    <div class="resume-contact">
+                        <span>Athani, Karnataka 591304, India</span>
+                        <span class="contact-separator">•</span>
+                        <span>+91 821 729 1743</span>
+                        <span class="contact-separator">•</span>
+                        <a href="mailto:imtiyazakiwat0@gmail.com">imtiyazakiwat0@gmail.com</a>
+                        <span class="contact-separator">•</span>
+                        <a href="https://linkedin.com/in/imtiyaz-akiwat" target="_blank">linkedin.com/in/imtiyaz-akiwat</a>
+                    </div>
+                </header>
+
+                <!-- Summary -->
+                <section class="section">
+                    <h2 class="section-title">Summary</h2>
+                    <p class="summary-text">
+                        Chief Technology Officer with expertise in Generative AI, Machine Learning, and full-stack architecture. 
+                        Delivered 10+ production applications serving 500+ users while reducing deployment cycles by 60%. 
+                        Led cross-functional teams of 5+ engineers, implementing cloud-native solutions on AWS 
+                        and integrating AI APIs (OpenAI, Claude, Gemini) to automate business processes. 
+                        Combines technical depth with strategic vision to transform ideas into scalable, revenue-generating products.
+                    </p>
+                </section>
+
+                <!-- Key Achievements -->
+                <section class="section">
+                    <h2 class="section-title">Key Achievements</h2>
+                    <div class="achievements-grid">
+                        <div class="achievement-item">
+                            <h4>AI Innovation Pioneer</h4>
+                            <p>Created AI website builder cutting development time from 2 weeks to 1 day (90% faster)</p>
+                        </div>
+                        <div class="achievement-item">
+                            <h4>Product Scale Success</h4>
+                            <p>Launched 10+ applications reaching 1,500+ users; Library System onboarded 500 users in 3 months</p>
+                        </div>
+                        <div class="achievement-item">
+                            <h4>Infrastructure Optimization</h4>
+                            <p>Reduced deployment from 4 hours to 45 minutes; improved team velocity by 40% through Agile adoption</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Professional Experience -->
+                <section class="section">
+                    <h2 class="section-title">Professional Experience</h2>
+                    
+                    <div class="experience-item">
+                        <div class="exp-header">
+                            <div>
+                                <h3 class="exp-company">Nighan2 Labs</h3>
+                                <p class="exp-role">Chief Technology Officer (CTO)</p>
+                            </div>
+                            <div class="exp-location">
+                                <span>Athani, Karnataka</span><br>
+                                <span class="exp-date">2023 - Present</span>
+                            </div>
+                        </div>
+                        <ul class="exp-list">
+                            <li>Orchestrate technology strategy for 3 product lines, driving 100% adoption of Generative AI capabilities across the organization</li>
+                            <li>Architected cloud-native infrastructure on AWS serving 1,000+ monthly active users with 99.9% uptime</li>
+                            <li>Mentor a cross-functional team of 5 engineers, implementing Agile sprints that accelerated delivery velocity by 40%</li>
+                            <li>Pioneered integration of OpenAI, Claude, and Gemini APIs, automating 15+ business workflows and saving 20 hours weekly</li>
+                            <li>Constructed CI/CD pipelines using GitHub Actions and Docker, cutting deployment cycles from 4 hours to 45 minutes (60% reduction)</li>
+                            <li>Championed technology evaluation of prospective partners by assessing architecture, security, and scalability; forged 2 strategic alliances</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="exp-header">
+                            <div>
+                                <h3 class="exp-company">Freelance Projects</h3>
+                                <p class="exp-role">Full Stack Developer & AI Engineer</p>
+                            </div>
+                            <div class="exp-location">
+                                <span>Athani, Karnataka</span><br>
+                                <span class="exp-date">2021 - 2023</span>
+                            </div>
+                        </div>
+                        <ul class="exp-list">
+                            <li>Shipped 10+ production applications for 8 clients across EdTech, AgriTech, and Gaming sectors, generating 5 Lakh+ in project revenue</li>
+                            <li>Built AI-powered website builder using GPT APIs, reducing client development time by 90% (from 2 weeks to 1 day)</li>
+                            <li>Launched Library Seat Management System with real-time WebSocket booking, onboarding 500+ active users within 3 months</li>
+                            <li>Developed Milk Dairy Management platform processing 200+ daily transactions for inventory, billing, and customer analytics</li>
+                            <li>Secured sensitive client data by implementing AES-256 end-to-end encryption, achieving 100% compliance with data protection standards</li>
+                            <li>Optimized application performance through code refactoring and database indexing, improving load times by 65%</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Education -->
+                <section class="section">
+                    <h2 class="section-title">Education</h2>
+                    <div class="education-item">
+                        <div>
+                            <h3 class="edu-school">Rani Chennamma University</h3>
+                            <p class="edu-degree">Bachelor of Science, Computer Science</p>
+                        </div>
+                        <div class="edu-meta">
+                            <span class="edu-location">Athani, Karnataka</span><br>
+                            <span class="edu-year">2021 - 2024</span>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <div>
+                            <h3 class="edu-school">Karnataka PUC Board</h3>
+                            <p class="edu-degree">Pre-University Certificate (PUC)</p>
+                        </div>
+                        <div class="edu-meta">
+                            <span class="edu-location">Athani, Karnataka</span><br>
+                            <span class="edu-year">2019 - 2021</span>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <div>
+                            <h3 class="edu-school">MDRS School Examba</h3>
+                            <p class="edu-degree">SSLC, Karnataka State Board</p>
+                        </div>
+                        <div class="edu-meta">
+                            <span class="edu-location">Karnataka</span><br>
+                            <span class="edu-year">2014 - 2019</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Technical Skills -->
+                <section class="section">
+                    <h2 class="section-title">Technical Skills</h2>
+                    <p class="skills-text">
+                        Generative AI · OpenAI API · LangChain · React.js · Next.js · Node.js · MongoDB · TypeScript · Flutter · React Native · AWS · Docker · Kubernetes · Git
+                    </p>
+                </section>
+
+            </div>
+        </article>
+    </div>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Imtiyaz Akiwat",
+        "jobTitle": "Chief Technology Officer",
+        "email": "imtiyazakiwat0@gmail.com",
+        "telephone": "+918217291743",
+        "url": "https://imtiyazakiwat.online",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Darur, Athani",
+            "addressCountry": "India"
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Rani Chennamma University"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Nighan2 Labs"
+        }
     }
-  </script>
-
+    </script>
 </body>
-
 </html>

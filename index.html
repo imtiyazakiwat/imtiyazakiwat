@@ -1,729 +1,635 @@
 <!DOCTYPE html>
-<html lang="zxx" class="no-js">
-
+<html lang="en">
 <head>
-  <!-- Mobile Specific Meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="img/fav.png" />
-  <!-- Author Meta -->
-  <meta name="author" content="Imtiyaz Akiwat">
-  <!-- Meta Description -->
-  <meta name="description"
-    content="Imtiyaz Akiwat - Professional Web Developer and Designer. Explore my portfolio showcasing my skills and work in web development, web design, AI, and data science. Contact me for inquiries and collaborations.">
-  <!-- Keywords -->
-  <meta name="keywords"
-    content="Imtiyaz Akiwat, Web Developer, Web Designer, AI Enthusiast, Data Scientist, Portfolio, Web Development, Web Design">
-
-  <!-- meta character set -->
-  <meta charset="UTF-8" />
-  <!-- Site Title -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png" />
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-  <link rel="manifest" href="/manifest.json" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-  <meta name="theme-color" content="#ffffff" />
-  <link rel="manifest" href="/manifest.json" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-  <meta name="theme-color" content="#ffffff" />
-  <title>Imtiyaz Akiwat - Web Developer | AI & Data Science Enthusiast</title>
-
-  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet" />
-  <!--
-			CSS
-			============================================= -->
-  <link rel="stylesheet" href="css/linearicons.css" />
-  <link rel="stylesheet" href="css/font-awesome.min.css" />
-  <link rel="stylesheet" href="css/bootstrap.css" />
-  <link rel="stylesheet" href="css/magnific-popup.css" />
-  <link rel="stylesheet" href="css/owl.carousel.css" />
-  <link rel="stylesheet" href="css/main.css" />
-
-  <script>
-    let location = window.location.href;
-    if (location.substring(0, 5) !== "https") {
-      window.location.href = "https://imtakiwat.online";
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Primary Meta Tags -->
+    <title>Imtiyaz Akiwat | CTO & AI Engineer | Building the Future with Generative AI</title>
+    <meta name="title" content="Imtiyaz Akiwat | CTO & AI Engineer | Building the Future with Generative AI">
+    <meta name="description" content="Imtiyaz Akiwat - Chief Technology Officer at Nighan2 Labs. Expert in Generative AI, Machine Learning, MERN Stack, Next.js, Flutter, React Native, DevOps (Docker, Kubernetes, AWS). Creator of innovative AI-powered applications and enterprise solutions.">
+    <meta name="keywords" content="Imtiyaz Akiwat, CTO, Chief Technology Officer, Generative AI Developer, Machine Learning Engineer, Full Stack Developer, MERN Stack Expert, Next.js Developer, Flutter Developer, React Native, DevOps Engineer, AWS Solutions Architect, Docker, Kubernetes, AI API Integration, LLM Developer, OpenAI, Claude API, Software Architect, Tech Leader, Nighan2 Labs, Website Builder AI, Enterprise Solutions">
+    <meta name="author" content="Imtiyaz Akiwat">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://imtiyazakiwat.online">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://imtiyazakiwat.online">
+    <meta property="og:title" content="Imtiyaz Akiwat | CTO & AI Engineer | Building the Future">
+    <meta property="og:description" content="Chief Technology Officer at Nighan2 Labs. Expert in Generative AI, ML, Full-Stack Development & DevOps. Building innovative AI-powered solutions.">
+    <meta property="og:image" content="https://imtiyazakiwat.online/img/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://imtiyazakiwat.online">
+    <meta property="twitter:title" content="Imtiyaz Akiwat | CTO & AI Engineer">
+    <meta property="twitter:description" content="Chief Technology Officer at Nighan2 Labs. Expert in Generative AI, ML, Full-Stack Development & DevOps.">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#0a0a0a">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/portfolio.css">
+    
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Imtiyaz Akiwat",
+        "jobTitle": "Chief Technology Officer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Nighan2 Labs"
+        },
+        "url": "https://imtiyazakiwat.online",
+        "sameAs": [
+            "https://github.com/imtiyazakiwat",
+            "https://linkedin.com/in/imtiyaz-akiwat",
+            "https://twitter.com/ImtiyazAkiwat"
+        ],
+        "knowsAbout": ["Generative AI", "Machine Learning", "MERN Stack", "Next.js", "Flutter", "React Native", "DevOps", "AWS", "Docker", "Kubernetes"]
     }
-  </script>
-  <meta name="google-site-verification" content="UAqylD7jyjeYJUbWPblrdFTsgHAdogUQIz6CWnmYhWk" />
+    </script>
 </head>
-
 <body>
-  <!-- start banner Area -->
-  <section class="banner-area" id="home">
-    <!-- Start Header Area -->
-    <header class="default-header">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="#" alt="" />
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="text-white lnr lnr-menu"></span>
-          </button>
-
-          <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#service">Service</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#project">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <!-- <li><a href="https://imtiyazakiwat.in/Hackathons/">Hackathons</a></li>	 -->
-            </ul>
-          </div>
+    <!-- Cursor Effect -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-text">IMTIYAZ</div>
+            <div class="loader-bar"></div>
         </div>
-      </nav>
-    </header>
-    <!-- End Header Area -->
-    <div class="container">
-      <div class="row justify-content-start align-items-center">
-        <style>
-          @media screen and (max-width: 768px) {
-            .img-fluid {
-              width: 25em !important;
-            }
-          }
-        </style>
-
-        <div class="col-lg-6 col-md-12 no-padding banner-right header">
-          <img class="img-fluid header-img-fluid" src="img/header-img.png" alt="" />
-        </div>
-        <div class="col-lg-6 col-md-12 banner-left">
-          <h1 class="text-white">
-            <!-- <div>Hi, I’m</div> -->
-            <span>Imtiyaz Akiwat</span> <br />Immersive Tech developer
-          </h1>
-          <p class="mx-auto text-white mt-20 mb-40">
-            Welcome to my website! I'm Imtiyaz, a software developer with
-            experience in various programming languages such as Java, Python,
-            C++, and JavaScript. My expertise is in creating web and mobile
-            apps using frameworks like React, Angular, and Node.js. I recently
-            developed many successful react apps . I'm a
-            strong team player and have great communication and
-            problem-solving skills. Contact me if you need a software
-            developer for your next project. Thanks for visiting!
-          </p>
-        </div>
-      </div>
     </div>
-  </section>
-  <!-- End banner Area -->
 
-  <!-- Start service Area -->
-  <section class="service-area section-gap" id="service">
-    <div class="container">
-      <div class="row d-flex justify-content-center">
-        <div class="menu-content pb-70 col-lg-8">
-          <div class="title text-center">
-            <h1 class="mb-10">Have a Look at my Skillsets</h1>
-            <p>Who are in extremely love with technology.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="single-service col-lg-6 col-md-6 mb-30">
-          <div class="icon">
-            <img src="img/s1.png" alt="" />
-          </div>
-          <div class="dec">
-            <h4 class="mt-30"><a href="#">Website with ReactJs</a></h4>
-            <p class="mt-20">
-              Most skilled in this field. Have in-depth knowledge of
-              Responsive website ReactJs. Can create single reload website
-              connecting to modern tech. Has 1+ year of experience in Web
-              Designing. Also, have published a couple of Websites and Web
-              Applications.
-            </p>
-          </div>
-        </div>
-        <div class="single-service col-lg-6 col-md-6 mb-30">
-          <div class="icon">
-            <img src="img/s2.png" alt="" />
-          </div>
-          <div class="dec">
-            <h4 class="mt-30"><a href="#">Web Application</a></h4>
-            <p class="mt-20">
-              I can create Web Applications, and push them to android, web.
-              Also had pretty good experience in integrating Web apps with an
-              app.
-            </p>
-          </div>
-        </div>
-        <div class="single-service col-lg-6 col-md-6">
-          <div class="icon">
-            <img src="img/s3.png" alt="" />
-          </div>
-          <div class="dec">
-            <h4 class="mt-30"><a href="#">3D Animation</a></h4>
-            <p class="mt-20">
-              Quite beginner in this field and can design some basic 3D
-              Animations on Blender and ProBuilder.
-            </p>
-          </div>
-        </div>
-        <div class="single-service col-lg-6 col-md-6">
-          <div class="icon">
-            <img src="img/s4.png" alt="" />
-          </div>
-          <div class="dec">
-            <h4 class="mt-30"><a href="#">Ai Development</a></h4>
-            <p class="mt-20">
-              Can develop basic AI assistants like Alexa and google assistant.
-              Knows the basics of frontend VUI and a bit of backend too.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End service Area -->
-
-  <!-- Start about Area -->
-  <section class="about-area section-gap" id="about">
-    <div class="container">
-      <div class="row d-flex justify-content-center">
-        <div class="menu-content pb-70 col-lg-8">
-          <div class="title text-center">
-            <h1 class="mb-10">About Myself</h1>
-            <p></p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 about-left">
-          <p>
-            <!--It won’t be a bigger problem to find one AR developer in your neighbor. Since the introduction of Immersive Tech, it has been achieving great heights so far as its popularity and technological advancement are concerned. The history of AR/VR is as interesting as a fairy tale.-->
-          </p>
-          <h4 class="pb-40">Skill Expertness</h4>
-
-          <div class="skillbar" data-percent="85%">
-            <div class="skill-bar-percent">Website With React 85%</div>
-            <div class="skillwrap">
-              <div class="skillbar-bar" style="width: 85%"></div>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">IA</span>
+                <span class="logo-dot"></span>
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#expertise" class="nav-link">Expertise</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="resume.html" class="nav-link nav-resume">Resume</a>
             </div>
-          </div>
-          <div class="skillbar" data-percent="75%">
-            <div class="skill-bar-percent">Web Application 75%</div>
-            <div class="skillwrap">
-              <div class="skillbar-bar" style="width: 75%"></div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-          </div>
+        </div>
+    </nav>
 
-          <div class="skillbar" data-percent="80%">
-            <div class="skill-bar-percent">3D Animation 80%</div>
-            <div class="skillwrap">
-              <div class="skillbar-bar" style="width: 80%"></div>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge" data-aos="fade-down" data-aos-delay="200">
+                <span class="badge-dot"></span>
+                <span>Available for opportunities</span>
             </div>
-          </div>
-
-          <div class="skillbar" data-percent="70%">
-            <div class="skill-bar-percent">Ai Development 70%</div>
-            <div class="skillwrap">
-              <div class="skillbar-bar" style="width: 70%"></div>
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="300">
+                <span class="title-line">Hi, I'm</span>
+                <span class="title-name gradient-text">Imtiyaz Akiwat</span>
+                <span class="title-role">CTO & AI Engineer</span>
+            </h1>
+            <p class="hero-description" data-aos="fade-up" data-aos-delay="400">
+                Building the future at <strong>Nighan2 Labs</strong>. I architect intelligent systems 
+                using <span class="highlight">Generative AI</span>, <span class="highlight">Machine Learning</span>, 
+                and modern full-stack technologies. Transforming ideas into scalable, 
+                production-ready solutions.
+            </p>
+            <div class="hero-cta" data-aos="fade-up" data-aos-delay="500">
+                <a href="#projects" class="btn btn-primary">
+                    <span>View My Work</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Let's Talk</span>
+                </a>
             </div>
-          </div>
-
-          <div class="skillbar" data-percent="50%">
-            <div class="skill-bar-percent">Google Console 50%</div>
-            <div class="skillwrap">
-              <div class="skillbar-bar" style="width: 50%"></div>
-            </div>
-          </div>
-
-          <div class="skillbar" data-percent="60%">
-            <div class="skill-bar-percent">Blender 60%</div>
-            <div class="skillwrap">
-              <div class="skillbar-bar" style="width: 60%"></div>
-            </div>
-          </div>
-
-          <div class="skillbar" data-percent="70%">
-            <div class="skill-bar-percent">Lens Studio 70%</div>
-            <div class="skillwrap">
-              <div class="skillbar-bar" style="width: 70%"></div>
-            </div>
-          </div>
-
-          <div class="skillbar" data-percent="40%">
-            <div class="skill-bar-percent">Java Development 40%</div>
-            <div class="skillwrap">
-              <div class="skillbar-bar" style="width: 40%"></div>
-            </div>
-          </div>
-
-          <div class="skillbar" data-percent="40%">
-            <div class="skill-bar-percent">JarvisAI 40%</div>
-            <div class="skillwrap">
-              <div class="skillbar-bar" style="width: 40%"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 about-right justify-content-end d-flex">
-          <div class="myself-wrap">
-            <img class="img-fluid" src="img/about-img.jpeg" alt="" />
-            <div class="desc">
-              <h4>Imtiyaz Akiwat</h4>
-              <p class="pb-10">Immersive Tech Developer</p>
-              <!-- <p><span class="lnr lnr-phone"></span> +91 7011 765 309</p> -->
-              <p>
-                <span class="lnr lnr-envelope"></span>
-                imtiyazakiwat0@gmail.com
-              </p>
-              <!-- <a class="mt-30 text-uppercase talk-btn"
-								href="https://www.slideshare.net/slideshow/embed_code/key/ct9Mx5ZxHtjPkb">Hire
-								Me</span></a> -->
-              <a class="mt-30 text-uppercase talk-btn" href="tel:+918217291743">Call me</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End about Area -->
-
-  <!-- Start qualification Area -->
-  <section class="qualification-area pt-100 pb-80">
-    <div class="container">
-      <div class="row d-flex justify-content-center">
-        <div class="menu-content pb-20 col-lg-8">
-          <div class="title text-center">
-            <h1 class="mb-10">My Experiences</h1>
-            <p></p>
-          </div>
-        </div>
-      </div>
-      <div class="row d-flex justify-content-center">
-        <div class="col-lg-6 col-md-6 qty-left">
-          <div class="single-qly">
-            <h3 class="text-uppercase">Coding Languages</h3>
-            <p>
-              I am a web developer with experience in coding languages such as
-              HTML, CSS, and JavaScript.
-            </p>
-            <h4 class="pt-20 pb-20">React JS Experience</h4>
-            <p>
-              I have worked on various web development projects using React JS
-              and have gained a strong understanding of the framework.
-            </p>
-          </div>
-
-          <div class="btm-border d-block mx-auto"></div>
-          <div class="single-qly">
-            <h3 class="text-uppercase">Web Application Development</h3>
-            <p>
-              I have also had experience in developing web applications and
-              have a good understanding of user experience and interface
-              design.
-            </p>
-            <h4 class="pt-20 pb-20">Android Development Skills</h4>
-            <p>
-              In addition to web development, I have also gained skills in
-              android development and have worked on mobile design and
-              responsive design.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 qty-right">
-          <div class="single-qly">
-            <h3 class="text-uppercase">Collaboration and Problem-Solving</h3>
-            <p>
-              Throughout my experience, I have learned the importance of
-              collaboration, problem-solving, and agile methodology in the
-              development process.
-            </p>
-            <h4 class="pt-20 pb-20">Debugging and Testing</h4>
-            <p>
-              I have also gained skills in debugging and testing, as well as
-              using version control and code review to ensure the quality of
-              my work. <br />
-              skillfulled WebDeveloper.
-            </p>
-          </div>
-
-          <div class="btm-border d-block mx-auto"></div>
-
-          <div class="single-qly">
-            <h3 class="text-uppercase">Version Control and Code Review</h3>
-            <p>
-              Overall, my experience as a web developer has given me a strong
-              foundation in building and designing effective web and mobile
-              applications.
-            </p>
-            <h4 class="pt-20 pb-20">Unity Mobile Applications</h4>
-            <p>
-              designing effective web and mobile applications. <br />Worked on
-              some simple game .
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End qualification Area -->
-
-  <!-- Start project Area -->
-  <section class="project-area section-gap" id="project">
-    <div class="container">
-      <div class="row d-flex justify-content-center">
-        <div class="menu-content pb-70 col-lg-8">
-          <div class="title text-center">
-            <h1 class="mb-10">Latest Done Projects</h1>
-            <p>Who are in extremely love with Augmented Reality.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 project-left">
-          <div class="single-project pb-100">
-            <img class="img-fluid project-screenshot" src="project-images/project1.png"
-              alt="Library Study Space Management System Screenshot" />
-            <h4 class="pt-4 pb-30">
-              <a href="#">Library Study Space Management System</a>
-            </h4>
-            <p>
-              "Developed a comprehensive online platform to transform traditional libraries into dynamic, tech-enabled
-              study spaces. Implemented features like personalized user profiles, smart booking system, and community
-              reviews. The system offers secure, end-to-end encrypted subscriptions, enhancing the modern learning
-              experience. Experience the future of libraries!"
-              <br />
-              ->
-              <a href="https://library-website.imtakiwat.online/" target="_blank">Explore Library Study Space Management
-                System</a>
-              <- </p>
-          </div>
-        </div>
-        <div class="col-lg-6 project-left">
-          <div class="single-project pb-100">
-            <img class="img-fluid project-screenshot" src="project-images/project2.png" alt="Project Screenshot 2" />
-            <h4 class="pt-4 pb-30">
-              <a href="#">Personal Language Convertor</a>
-            </h4>
-            <p>
-              "created a language convertor project which converts the
-              language to encrypted or encrypted to plain text"<br />
-              ->
-              <a href="Language Convertor/index.html" target="_blank">Link to Language convertor project</a>
-              <- </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-6 project-left">
-          <div class="single-project pb-100">
-            <img class="img-fluid project-screenshot" src="project-images/project3.png"
-              alt="Library Study Space Management System Screenshot" />
-            <h4 class="pt-4 pb-30">
-              <a href="#">Marigold Load Tracker</a>
-            </h4>
-            <p>
-              The purpose of this website is to help AVT Natural Products' marigold branch company streamline the
-              process of calculating farmers' production when loading marigold flowers onto trucks.
-              <br />
-              ->
-              <a href="https://imtiyazakiwat.github.io/MarigoldLoadTracker/" target="_blank">Explore Marigold Load
-                Tracker</a>
-              <- </p>
-          </div>
-        </div>
-        <div class="col-lg-6 project-left">
-          <div class="single-project pb-100">
-            <img class="img-fluid project-screenshot" src="project-images/project4.png" alt="Project Screenshot 2" />
-            <h4 class="pt-4 pb-30">
-              <a href="#">Website Builder Tool</a>
-            </h4>
-            <p>
-              This is a tool for building websites. It takes user input for the website's description and utilizes
-              OpenAI GPT-3.5 to generate HTML, CSS, and Bootstrap code to create a template for the website.<br />
-              ->
-              <a href="https://imtiyazakiwat.github.io/website-builder/" target="_blank">Link to website builder</a>
-              <- </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- <section class="project-area section-gap" id="project"> -->
-    <!-- <div class="container"> -->
- 
-    <!-- </div> -->
-  <!-- </section> -->
-
-
-
-  <!-- End project Area -->
-
-  <!-- Start feature Area -->
-  <section class="feature-area pt-100">
-    <div class="container">
-      <div class="row d-flex justify-content-center">
-        <div class="menu-content pb-70 col-lg-8">
-          <div class="title text-center">
-            <h1 class="mb-10">Some Hobbies that Makes me Unique</h1>
-            <p></p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="single-feature mb-30">
-            <div class="title d-flex flex-row pb-20">
-              <!--<span class="lnr lnr-user"></span>-->
-              <a href="https://www.quora.com/profile/Imtiyaz-Akiwat-2"><i class="fa fa-quora"></i></a>
-              <h4><a href="">. Music production</a></h4>
-            </div>
-            <p>
-              I have a passion for electronic music and enjoy using software
-              such as Ableton Live to create and mix my own tracks. This hobby
-              has given me an understanding of audio engineering principles
-              and the ability to think creatively and experiment with
-              different sounds and effects..<br />
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-feature mb-30">
-            <div class="title d-flex flex-row pb-20">
-              <span class="lnr lnr-license"></span>
-              <!--<a href="#"><i class="fa fa-maps"></i></a>-->
-              <h4>
-                <a
-                  href="https://marketscale.com/industries/building-management/what-is-3d-modeling-and-design-a-beginners-guide-to-3d/">
-                  3D modeling and design</a>
-              </h4>
-            </div>
-            <p>
-              I have a keen interest in 3D graphics and enjoy using software
-              such as Blender to create 3D models and animations. This hobby
-              has given me an understanding of computer graphics principles.
-              <br />
-              ability to think in three dimensions.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-feature mb-30">
-            <div class="title d-flex flex-row pb-20">
-              <!--<span class="lnr lnr-phone"></span>-->
-              <a href="#"><i class="fa fa-medium"></i></a>
-              <h4>
-                <a href="https://nevonprojects.com/latest-robotic-projects-ideas-topics/">. Robotics and DIY
-                  projects</a>
-              </h4>
-            </div>
-            <p>
-              I enjoy tinkering with electronics and have built several DIY
-              projects such as a 3D printer, a quadcopter, and a smart
-              irrigation system. This hobby has given me a strong
-              understanding of hardware and the ability to problem-solve and
-              think critically.
-            </p>
-          </div>
-        </div>
-        <!-- <div class="col-lg-4 col-md-6 ">
-							<div class="single-feature">
-								<div class="title d-flex flex-row pb-20">
-									<span class="lnr lnr-rocket"></span>
-									<h4><a href="#">Technical Skills</a></h4>
-								</div>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>							
-							</div>							
-						</div>
-						<div class="col-lg-4 col-md-6 ">
-							<div class="single-feature">
-								<div class="title d-flex flex-row pb-20">
-									<span class="lnr lnr-diamond"></span>
-									<h4><a href="#">Highly Recomended</a></h4>
-								</div>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>							
-							</div>							
-						</div>
-						<div class="col-lg-4 col-md-6 ">
-							<div class="single-feature">
-								<div class="title d-flex flex-row pb-20">
-									<span class="lnr lnr-bubble"></span>
-									<h4><a href="#">Positive Reviews</a></h4>
-								</div>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>							
-							</div>							
-						</div>																					 -->
-      </div>
-    </div>
-  </section>
-  <!-- End feature Area -->
-
-  <!-- start contact Area -->
-  <section class="contact-area section-gap" id="contact">
-    <div class="container">
-      <div class="row d-flex justify-content-center">
-        <div class="menu-content pb-20 col-lg-8">
-          <div class="title text-center">
-            <h1 class="mb-10">If you need, Just drop me a message</h1>
-            <p>Ask me anything here...</p>
-          </div>
-        </div>
-      </div>
-
-      <form class="form-area mt-60" id="email-form" netlify class="contact-form text-right">
-        <div class="row">
-          <div class="col-lg-6 form-group">
-            <input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''"
-              onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required=""
-              type="text" />
-
-            <input name="email" placeholder="Enter email address"
-              pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''"
-              onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required=""
-              type="email" />
-
-            <input name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''"
-              onblur="this.placeholder = 'Enter your subject'" class="common-input mb-20 form-control" required=""
-              type="text" />
-          </div>
-          <div class="col-lg-6 form-group">
-            <textarea class="common-textarea mt-10 form-control" name="message" placeholder="Message"
-              onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
-            <button class="primary-btn mt-20">
-              Send Message<span class="lnr lnr-arrow-right"></span>
-            </button>
-            <div class="alert-msg"></div>
-          </div>
-        </div>
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <script>
-          function sendEmail() {
-            Email.send({
-              //secureToken:"9ebf865a-d846-4cfc-bb05-1ed07d9ed6d9",
-              Host: "smtp.elasticemail.com",
-              port: "2525",
-              Username: "imtiyazakiwat0@gmail.com",
-              Password: "947CB8EF9E26C1D995B54A38018844A2FAD8",
-              To: "akiwatimtiyaz924@gmail.com",
-              From: "imtiyazakiwat0@gmail.com",
-              Subject: "New Contactform Enquiry",
-              Body: "And this is the body",
-            }).then((message) => showPopup());
-          }
-          function showPopup() {
-            alert("Thank you! Your details are submitted successfully.");
-          }
-        </script>
-      </form>
-    </div>
-  </section>
-  <!-- end contact Area -->
-
-  <!-- start footer Area -->
-  <footer class="footer-area section-gap">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 col-md-6 col-sm-6">
-          <div class="single-footer-widget">
-            <h6>About Me</h6>
-            <p></p>
-
-            <p class="footer-text">
-              Copyright &copy;
-              <script>
-                document.write(new Date().getFullYear());
-              </script>
-              All rights reserved | Made with
-              <i class="fa fa-heart-o" aria-hidden="true"></i> by
-              <a href="https://www.instagram.com/iamimtiyaz924/?igshid=" target="_blank">Imtiyaz</a>
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-5 col-md-6 col-sm-6">
-          <div class="single-footer-widget">
-            <h6>Newsletter</h6>
-            <p>Stay update with my latest</p>
-            <div class="" id="mc_embed_signup">
-              <form target="_blank" novalidate="true"
-                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                method="get" class="form-inline">
-                <div class="d-flex flex-row">
-                  <input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''"
-                    onblur="this.placeholder = 'Enter Email '" required="" type="email" />
-
-                  <button class="click-btn btn btn-default">
-                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                  </button>
-                  <div style="position: absolute; left: -5000px">
-                    <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text" />
-                  </div>
-
-                  <!-- <div class="col-lg-4 col-md-4">
-												<button class="bb-btn btn"><span class="lnr lnr-arrow-right"></span></button>
-											</div>  -->
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="600">
+                <div class="stat">
+                    <span class="stat-number" data-count="10">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Projects Delivered</span>
                 </div>
-                <div class="info"></div>
-              </form>
+                <div class="stat">
+                    <span class="stat-number" data-count="5">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Live Client Apps</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="15">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Technologies</span>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
-          <div class="single-footer-widget">
-            <h6>Follow Me</h6>
-            <p>Let us be social</p>
-            <div class="footer-social d-flex align-items-center">
-              <a href="https://www.facebook.com/Imtiyaz.Akiwat.5"><i class="fa fa-facebook"></i></a>
-              <a href="https://mobile.twitter.com/ImtiyazAkiwat"><i class="fa fa-twitter"></i></a>
-              <a href="https://www.instagram.com/iamimtiyaz924/?igshid="><i class="fa fa-instagram"></i></a>
-              <a href="https://www.quora.com/profile/Imtiyaz-Akiwat-2"><i class="fa fa-quora"></i></a>
-            </div>
-            <br />
-            <div class="footer-social d-flex align-items-center">
-              <a href="https://github.com/imtiyazakiwat"><i class="fa fa-github"></i></a>
-              <a href="https://wa.me/+918217291743"><i class="fa fa-whatsapp"></i></a>
-              <a href="https://www.linkedin.com/in/Imtiyaz-Akiwat/"><i class="fa fa-linkedin"></i></a>
-              <a href="https://medium.com/@AkiwatImtiyaz28"><i class="fa fa-medium"></i></a>
-            </div>
-            <!-- <br>
-                                <div class="footer-social d-flex align-items-center">
-										<a href="https://github.com/imtiyazakiwat"><i class="fa fa-steam"></i></a>
-									
-										
-								</div> -->
-          </div>
+        <div class="hero-scroll">
+            <span>Scroll to explore</span>
+            <div class="scroll-indicator"></div>
         </div>
-      </div>
-    </div>
-  </footer>
-  <!-- End footer Area -->
-
-  <script src="js/vendor/jquery-2.2.4.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-    integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-    crossorigin="anonymous"></script>
-  <script src="js/vendor/bootstrap.min.js"></script>
-  <script src="js/jquery.ajaxchimp.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/parallax.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-
-  <script src="js/main.js"></script>
+    </section>
 </body>
-
 </html>
+
+ 
+   <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Crafting Digital Excellence</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right" data-aos-delay="200">
+                    <div class="image-wrapper">
+                        <img src="img/15CA9E9B-D40E-42D9-9CC1-E0B0BC2A6B73_1_201_a.jpeg" alt="Imtiyaz Akiwat - CTO & AI Engineer">
+                    </div>
+                </div>
+                <div class="about-content" data-aos="fade-left" data-aos-delay="300">
+                    <h3>Chief Technology Officer at Nighan2 Labs</h3>
+                    <p class="about-lead">
+                        I'm a technology leader passionate about pushing the boundaries of what's possible 
+                        with artificial intelligence and modern software development.
+                    </p>
+                    <p>
+                        With deep expertise in <strong>Generative AI</strong> and <strong>Large Language Models</strong>, 
+                        I specialize in building intelligent applications that solve real-world problems. 
+                        From architecting scalable cloud infrastructure to crafting pixel-perfect user experiences, 
+                        I bring a holistic approach to technology leadership.
+                    </p>
+                    <p>
+                        My journey spans across the entire tech stack — from training ML models to deploying 
+                        containerized applications on Kubernetes. I believe in building products that not only 
+                        work flawlessly but also delight users.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-rocket"></i>
+                            <div>
+                                <strong>Innovation First</strong>
+                                <span>Always exploring cutting-edge tech</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <strong>Team Leadership</strong>
+                                <span>Building & mentoring dev teams</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong>Product Mindset</strong>
+                                <span>User-centric development</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section class="expertise section" id="expertise">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">What I Do</span>
+                <h2 class="section-title">Technical Expertise</h2>
+            </div>
+            
+            <div class="expertise-grid">
+                <!-- AI & ML -->
+                <div class="expertise-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Generative AI & ML</h3>
+                    <p>Building intelligent applications with LLMs, fine-tuning models, and integrating AI APIs (OpenAI, Claude, Gemini) into production systems.</p>
+                    <div class="card-tags">
+                        <span>OpenAI API</span>
+                        <span>LangChain</span>
+                        <span>RAG</span>
+                        <span>Fine-tuning</span>
+                        <span>Prompt Engineering</span>
+                    </div>
+                </div>
+
+                <!-- Full Stack -->
+                <div class="expertise-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Full Stack Development</h3>
+                    <p>End-to-end application development with modern frameworks. From responsive frontends to scalable backend architectures.</p>
+                    <div class="card-tags">
+                        <span>React</span>
+                        <span>Next.js</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Express</span>
+                        <span>TypeScript</span>
+                    </div>
+                </div>
+
+                <!-- Mobile -->
+                <div class="expertise-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Development</h3>
+                    <p>Cross-platform mobile applications with native performance. Building apps that users love on both iOS and Android.</p>
+                    <div class="card-tags">
+                        <span>Flutter</span>
+                        <span>React Native</span>
+                        <span>Dart</span>
+                        <span>Mobile UI/UX</span>
+                    </div>
+                </div>
+
+                <!-- DevOps -->
+                <div class="expertise-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>DevOps & Cloud</h3>
+                    <p>Infrastructure as code, CI/CD pipelines, and cloud-native deployments. Ensuring reliability and scalability at every level.</p>
+                    <div class="card-tags">
+                        <span>AWS</span>
+                        <span>Docker</span>
+                        <span>Kubernetes</span>
+                        <span>CI/CD</span>
+                        <span>Terraform</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tech Stack -->
+            <div class="tech-stack" data-aos="fade-up" data-aos-delay="500">
+                <h3>Technologies I Work With</h3>
+                <div class="tech-grid">
+                    <div class="tech-item" title="React"><i class="fab fa-react"></i></div>
+                    <div class="tech-item" title="Next.js"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.572 0c-.176 0-.31.001-.358.007a19.76 19.76 0 0 1-.364.033C7.443.346 4.25 2.185 2.228 5.012a11.875 11.875 0 0 0-2.119 5.243c-.096.659-.108.854-.108 1.747s.012 1.089.108 1.748c.652 4.506 3.86 8.292 8.209 9.695.779.251 1.6.422 2.534.525.363.04 1.935.04 2.299 0 1.611-.178 2.977-.577 4.323-1.264.207-.106.247-.134.219-.158-.02-.013-.9-1.193-1.955-2.62l-1.919-2.592-2.404-3.558a338.739 338.739 0 0 0-2.422-3.556c-.009-.002-.018 1.579-.023 3.51-.007 3.38-.01 3.515-.052 3.595a.426.426 0 0 1-.206.214c-.075.037-.14.044-.495.044H7.81l-.108-.068a.438.438 0 0 1-.157-.171l-.05-.106.006-4.703.007-4.705.072-.092a.645.645 0 0 1 .174-.143c.096-.047.134-.051.54-.051.478 0 .558.018.682.154.035.038 1.337 1.999 2.895 4.361a10760.433 10760.433 0 0 0 4.735 7.17l1.9 2.879.096-.063a12.317 12.317 0 0 0 2.466-2.163 11.944 11.944 0 0 0 2.824-6.134c.096-.66.108-.854.108-1.748 0-.893-.012-1.088-.108-1.747-.652-4.506-3.859-8.292-8.208-9.695a12.597 12.597 0 0 0-2.499-.523A33.119 33.119 0 0 0 11.572 0zm4.069 7.217c.347 0 .408.005.486.047a.473.473 0 0 1 .237.277c.018.06.023 1.365.018 4.304l-.006 4.218-.744-1.14-.746-1.14v-3.066c0-1.982.01-3.097.023-3.15a.478.478 0 0 1 .233-.296c.096-.05.13-.054.5-.054z"/></svg></div>
+                    <div class="tech-item" title="Node.js"><i class="fab fa-node-js"></i></div>
+                    <div class="tech-item" title="Python"><i class="fab fa-python"></i></div>
+                    <div class="tech-item" title="AWS"><i class="fab fa-aws"></i></div>
+                    <div class="tech-item" title="Docker"><i class="fab fa-docker"></i></div>
+                    <div class="tech-item" title="Git"><i class="fab fa-git-alt"></i></div>
+                    <div class="tech-item" title="Flutter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.314 0L2.3 12 6 15.7 21.684.013h-7.357zm.014 11.072L7.857 17.53l6.47 6.47H21.7l-6.46-6.468 6.46-6.46h-7.37z"/></svg></div>
+                </div>
+            </div>
+        </div>
+    </section>
+""
+
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Real-world solutions powering businesses and delighting users</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1: Website Builder -->
+                <div class="project-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="project-images/project4.png" alt="AI Website Builder - Generate websites instantly with AI">
+                        <div class="project-overlay">
+                            <a href="https://imtiyazakiwat.github.io/website-builder/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag-ai">AI Powered</span>
+                            <span>React</span>
+                            <span>OpenAI</span>
+                        </div>
+                        <h3>AI Website Builder</h3>
+                        <p>Revolutionary tool that generates complete websites instantly using Generative AI. Input your description, get production-ready HTML, CSS, and Bootstrap code in seconds.</p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-bolt"></i> Instant Generation</span>
+                            <span><i class="fas fa-code"></i> Clean Code Output</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Library Management -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="project-images/project1.png" alt="Library Seat Management System - Live in production">
+                        <div class="project-overlay">
+                            <a href="https://library-website.imtakiwat.online/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="project-badge">Live in Production</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>MERN Stack</span>
+                            <span>Real-time</span>
+                        </div>
+                        <h3>Library Seat Management</h3>
+                        <p>Comprehensive platform transforming traditional libraries into smart study spaces. Features real-time booking, user profiles, and encrypted subscriptions. Currently serving live clients.</p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-users"></i> Active Users</span>
+                            <span><i class="fas fa-shield-alt"></i> E2E Encrypted</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Milk Dairy -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-cow"></i>
+                        </div>
+                        <div class="project-badge">Client Project</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Full Stack</span>
+                            <span>Enterprise</span>
+                        </div>
+                        <h3>Milk Dairy Management</h3>
+                        <p>End-to-end dairy management solution handling inventory, billing, customer management, and analytics. Deployed and actively used by dairy businesses.</p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-chart-bar"></i> Analytics</span>
+                            <span><i class="fas fa-receipt"></i> Billing System</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Hukum Card Game -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <div class="project-placeholder game">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Game Dev</span>
+                            <span>Multiplayer</span>
+                        </div>
+                        <h3>Hukum - Card Game</h3>
+                        <p>Multiplayer card game bringing the classic Hukum experience online. Real-time gameplay, matchmaking, and engaging UI for card game enthusiasts.</p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-wifi"></i> Real-time</span>
+                            <span><i class="fas fa-trophy"></i> Competitive</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-cta" data-aos="fade-up">
+                <p>These are just a few highlights. I've built many more solutions across various domains.</p>
+                <a href="#contact" class="btn btn-outline">
+                    <span>Discuss Your Project</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Journey</span>
+                <h2 class="section-title">Experience & Growth</h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-marker current">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Present</span>
+                        <h3>Chief Technology Officer</h3>
+                        <h4>Nighan2 Labs</h4>
+                        <p>Leading technology strategy and innovation. Architecting AI-powered solutions, managing development teams, and driving technical excellence across all products.</p>
+                        <div class="timeline-tags">
+                            <span>Leadership</span>
+                            <span>AI Strategy</span>
+                            <span>Product Development</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-marker">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Ongoing</span>
+                        <h3>Full Stack & AI Development</h3>
+                        <h4>Freelance & Client Projects</h4>
+                        <p>Delivering production-ready applications for clients across industries. From library management systems to dairy solutions, building software that solves real problems.</p>
+                        <div class="timeline-tags">
+                            <span>Client Success</span>
+                            <span>MERN Stack</span>
+                            <span>Enterprise Solutions</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-marker">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Foundation</span>
+                        <h3>Continuous Learning</h3>
+                        <h4>Self-Driven Growth</h4>
+                        <p>Constantly expanding expertise in emerging technologies. From mastering new AI frameworks to exploring cloud-native architectures, always staying ahead of the curve.</p>
+                        <div class="timeline-tags">
+                            <span>GenAI</span>
+                            <span>Cloud Native</span>
+                            <span>DevOps</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+""
+
+    <!
+-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="section-title">Let's Build Something Amazing</h2>
+                <p class="section-subtitle">Have a project in mind? Let's discuss how we can work together.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <a href="mailto:imtiyazakiwat0@gmail.com">imtiyazakiwat0@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Phone</h4>
+                            <a href="tel:+918217291743">+91 821 729 1743</a>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Location</h4>
+                            <span>Darur, Athani, India</span>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h4>Connect with me</h4>
+                        <div class="social-icons">
+                            <a href="https://github.com/imtiyazakiwat" target="_blank" title="GitHub" aria-label="GitHub Profile">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/imtiyaz-akiwat" target="_blank" title="LinkedIn" aria-label="LinkedIn Profile">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://twitter.com/ImtiyazAkiwat" target="_blank" title="Twitter" aria-label="Twitter Profile">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://instagram.com/iamimtiyaz924" target="_blank" title="Instagram" aria-label="Instagram Profile">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://wa.me/+918217291743" target="_blank" title="WhatsApp" aria-label="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-left" data-aos-delay="300">
+                    <form class="contact-form" id="contact-form" netlify>
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" required>
+                            <label for="name">Your Name</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" required>
+                            <label for="email">Your Email</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" id="subject" required>
+                            <label for="subject">Subject</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">
+                        <span class="logo-text">IA</span>
+                        <span class="logo-dot"></span>
+                    </a>
+                    <p>Building the future with code and creativity.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="resume.html">Resume</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/imtiyazakiwat" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/imtiyaz-akiwat" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://twitter.com/ImtiyazAkiwat" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Imtiyaz Akiwat. Crafted with <i class="fas fa-heart"></i> and lots of <i class="fas fa-coffee"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
+""

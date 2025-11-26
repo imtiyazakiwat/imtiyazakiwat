@@ -1,0 +1,12 @@
+# Robots.txt for imtiyazakiwat.online
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://imtiyazakiwat.online/sitemap.xml
+
+# Disallow sensitive files
+Disallow: /sshkey.txt
+Disallow: /sshkey.txt.pub
+Disallow: /.git/
+Disallow: /.vscode/
