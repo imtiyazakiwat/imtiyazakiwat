@@ -4,7 +4,7 @@
 
 ## About
 
-Personal portfolio website showcasing my work as **Software Engineer at Nighan2 Labs**. Built with modern web technologies featuring a sleek, dark-themed design with smooth animations and excellent SEO optimization.
+Personal portfolio website showcasing my work as a **Full-Stack Developer and AI/ML Engineer**. Built with modern web technologies, a focused dark theme, accessible navigation, responsive layouts, and search-friendly semantic markup.
 
 ## Tech Stack
 
