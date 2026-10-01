@@ -28,13 +28,35 @@ I build modern web applications, explore AI/ML and data engineering, and enjoy t
 ## 🧰 Tech Stack
 
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,bootstrap,py,mysql,aws,gcp,firebase,cloudflare,git&theme=dark&perline=14" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,bootstrap,py,mysql,aws,gcp,firebase,cloudflare,git&theme=light&perline=14" />
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,bootstrap,py,mysql,aws,gcp,firebase,cloudflare,git&perline=14" alt="Tech stack" />
-</picture>
-<br/>
-<img src="https://img.shields.io/badge/Informatica-FF4D00?style=flat-square&logo=informatica&logoColor=white" alt="Informatica" />
+
+<sub><b>LANGUAGES</b></sub><br/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+<br/><br/>
+
+<sub><b>FRONTEND</b></sub><br/>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+<br/><br/>
+
+<sub><b>BACKEND &amp; CLOUD</b></sub><br/>
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud" />
+<img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge" alt="AWS" />
+<img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+<br/><br/>
+
+<sub><b>DATA &amp; TOOLS</b></sub><br/>
+<img src="https://img.shields.io/badge/Informatica-FF4D00?style=for-the-badge" alt="Informatica" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+<br/><br/>
+
 </div>
 
 ---
