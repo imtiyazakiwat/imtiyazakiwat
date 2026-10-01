@@ -11,9 +11,9 @@
 <br/>
 
 <a href="https://www.imtiyazakiwat.online"><img src="https://img.shields.io/badge/View_Portfolio-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Contact_Me-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://x.com/YOUR_X"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+<a href="mailto:imtiyazakiwat0@gmail.com"><img src="https://img.shields.io/badge/Contact_Me-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://in.linkedin.com/in/imtiyaz-akiwat"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://x.com/imtiyazakiwat"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
 
 </div>
 
@@ -45,14 +45,14 @@ I build modern web applications, explore AI/ML and data engineering, and enjoy t
   <tr>
     <td width="50%" valign="top">
       <!-- <a href="LIVE_URL"><img src="assets/ai-fiesta.png" alt="AI Fiesta" width="100%" /></a> -->
-      <h3><a href="https://github.com/imtiyazakiwat/AI_FIESTA_REPO">AI Fiesta</a></h3>
+      <h3><a href="https://github.com/imtiyazakiwat/ai-feista">AI Fiesta</a></h3>
       AI community platform with a modern UI and blog system.<br/><br/>
       <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
       <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
     </td>
     <td width="50%" valign="top">
       <!-- <a href="LIVE_URL"><img src="assets/shiftmaadi.png" alt="ShiftMaadi" width="100%" /></a> -->
-      <h3><a href="https://github.com/imtiyazakiwat/SHIFTMAADI_REPO">ShiftMaadi</a></h3>
+      <h3><a href="https://github.com/RahulMirji/shiftmadi">ShiftMaadi</a></h3>
       Transport &amp; logistics ERP with real-time tracking.<br/><br/>
       <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
       <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
@@ -61,20 +61,19 @@ I build modern web applications, explore AI/ML and data engineering, and enjoy t
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <!-- <a href="LIVE_URL"><img src="assets/agi-mail.png" alt="AGI Mail" width="100%" /></a> -->
-      <h3><a href="https://github.com/imtiyazakiwat/AGI_MAIL_REPO">AGI Mail</a></h3>
-      Custom email application: bring your own domain, get a mailbox.<br/><br/>
-      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-      <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
-      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
+      <!-- <a href="LIVE_URL"><img src="assets/split-it.png" alt="Split It" width="100%" /></a> -->
+      <h3><a href="https://github.com/imtiyazakiwat/split-it">Split It</a></h3>
+      Installable PWA for splitting payments within a group and managing shared expenses seamlessly.<br/><br/>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" />
     </td>
     <td width="50%" valign="top">
-      <!-- <a href="LIVE_URL"><img src="assets/sql-playground.png" alt="SQL Playground" width="100%" /></a> -->
-      <h3><a href="https://github.com/imtiyazakiwat/SQL_PLAYGROUND_REPO">SQL Playground</a></h3>
-      Interactive SQL learning tool with real-time execution in the browser.<br/><br/>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-      <img src="https://img.shields.io/badge/SQL.js-003B57?style=flat-square&logo=sqlite&logoColor=white" />
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+      <!-- <a href="LIVE_URL"><img src="assets/insta-detect.png" alt="Insta Detect" width="100%" /></a> -->
+      <h3><a href="https://github.com/imtiyazakiwat/insta-detect">Insta Detect</a></h3>
+      Share an Instagram link and get a summary of the content's authenticity and facts, with live news and a credibility score.<br/><br/>
+      <img src="https://img.shields.io/badge/AI-8B5CF6?style=flat-square" />
+      <img src="https://img.shields.io/badge/Fact--checking-111827?style=flat-square" />
+      <img src="https://img.shields.io/badge/Live_news-E11D48?style=flat-square" />
     </td>
   </tr>
 </table>
