@@ -1,54 +1,123 @@
-# Imtiyaz Akiwat - Portfolio Website
+<!-- Repo must be named exactly: imtiyazakiwat/imtiyazakiwat (public) -->
 
-🚀 **Live at:** [imtiyazakiwat.online](https://imtiyazakiwat.online)
+<div align="center">
 
-## About
+<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=gradient&customColorList=6,11,20&text=Imtiyaz%20Akiwat&fontSize=54&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20AI%2FML%20Enthusiast%20%7C%20Problem%20Solver&descSize=18&descAlignY=58&animation=fadeIn" alt="Imtiyaz Akiwat" width="100%" />
 
-Personal portfolio website showcasing my work as a **Full-Stack Developer and AI/ML Engineer**. Built with modern web technologies, a focused dark theme, accessible navigation, responsive layouts, and search-friendly semantic markup.
+<a href="https://github.com/imtiyazakiwat">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=8B5CF6&center=true&vCenter=true&width=620&lines=Hi+there!+%F0%9F%91%8B+I'm+Imtiyaz;I+build+logistics+%26+booking+platforms;Exploring+AI%2FML+and+Data+Engineering;Build+%C2%B7+Learn+%C2%B7+Improve+%C2%B7+Repeat" alt="Typing intro" />
+</a>
 
-## Tech Stack
+<br/>
 
-- **HTML5** - Semantic markup with rich SEO meta tags
-- **CSS3** - Custom properties, Grid, Flexbox, animations
-- **JavaScript** - Vanilla JS with AOS animations
-- **Font Awesome** - Icons
-- **Google Fonts** - Space Grotesk & JetBrains Mono
+<a href="https://www.imtiyazakiwat.online"><img src="https://img.shields.io/badge/View_Portfolio-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Contact_Me-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://x.com/YOUR_X"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
 
-## Features
+</div>
 
-- ✨ Modern, unique dark theme design
-- 📱 Fully responsive across all devices
-- 🎨 Smooth animations and micro-interactions
-- 🔍 SEO optimized with Schema.org markup
-- 📄 ATS-friendly resume page
-- ⚡ Performance optimized with caching
-- 🔒 Security headers configured
-- 🌐 PWA ready with manifest.json
+<br/>
 
-## Sections
+I build modern web applications, explore AI/ML and data engineering, and enjoy turning ideas into real-world solutions: from on-demand logistics and vehicle booking platforms to developer tools. Currently learning, building and sharing my work.
 
-1. **Hero** - Introduction with animated stats
-2. **About** - Professional background and highlights
-3. **Expertise** - Technical skills and technologies
-4. **Projects** - Featured work portfolio
-5. **Experience** - Career timeline
-6. **Contact** - Contact form and social links
-7. **Resume** - Downloadable ATS-friendly resume
-
-## Expertise Areas
-
-- **Generative AI & ML** - LLMs, OpenAI, Claude, LangChain, RAG
-- **Full Stack** - MERN, Next.js, TypeScript
-- **Mobile** - Flutter, React Native
-- **DevOps** - AWS, Docker, Kubernetes, CI/CD
-
-## Contact
-
-- 📧 Email: imtiyazakiwat0@gmail.com
-- 📱 Phone: +91 821 729 1743
-- 💼 LinkedIn: [linkedin.com/in/imtiyaz-akiwat](https://linkedin.com/in/imtiyaz-akiwat)
-- 🐙 GitHub: [github.com/imtiyazakiwat](https://github.com/imtiyazakiwat)
+🟢 **Open to opportunities** (Full-Time · Remote · Freelance)
 
 ---
 
-© 2025 Imtiyaz Akiwat. All rights reserved.
+## 🧰 Tech Stack
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,bootstrap,py,mysql,aws,gcp,firebase,cloudflare,git&theme=dark&perline=14" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,bootstrap,py,mysql,aws,gcp,firebase,cloudflare,git&theme=light&perline=14" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,bootstrap,py,mysql,aws,gcp,firebase,cloudflare,git&perline=14" alt="Tech stack" />
+</picture>
+<br/>
+<img src="https://img.shields.io/badge/Informatica-FF4D00?style=flat-square&logo=informatica&logoColor=white" alt="Informatica" />
+</div>
+
+---
+
+## 🚀 Featured Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <!-- <a href="LIVE_URL"><img src="assets/ai-fiesta.png" alt="AI Fiesta" width="100%" /></a> -->
+      <h3><a href="https://github.com/imtiyazakiwat/AI_FIESTA_REPO">AI Fiesta</a></h3>
+      AI community platform with a modern UI and blog system.<br/><br/>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+    </td>
+    <td width="50%" valign="top">
+      <!-- <a href="LIVE_URL"><img src="assets/shiftmaadi.png" alt="ShiftMaadi" width="100%" /></a> -->
+      <h3><a href="https://github.com/imtiyazakiwat/SHIFTMAADI_REPO">ShiftMaadi</a></h3>
+      Transport &amp; logistics ERP with real-time tracking.<br/><br/>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
+      <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <!-- <a href="LIVE_URL"><img src="assets/agi-mail.png" alt="AGI Mail" width="100%" /></a> -->
+      <h3><a href="https://github.com/imtiyazakiwat/AGI_MAIL_REPO">AGI Mail</a></h3>
+      Custom email application: bring your own domain, get a mailbox.<br/><br/>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+      <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
+      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
+    </td>
+    <td width="50%" valign="top">
+      <!-- <a href="LIVE_URL"><img src="assets/sql-playground.png" alt="SQL Playground" width="100%" /></a> -->
+      <h3><a href="https://github.com/imtiyazakiwat/SQL_PLAYGROUND_REPO">SQL Playground</a></h3>
+      Interactive SQL learning tool with real-time execution in the browser.<br/><br/>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+      <img src="https://img.shields.io/badge/SQL.js-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+    </td>
+  </tr>
+</table>
+
+<div align="right"><a href="https://github.com/imtiyazakiwat?tab=repositories">View all repositories →</a></div>
+
+---
+
+## 🌱 Right Now
+
+- 🔨 Building: client platforms in logistics and vehicle booking
+- 📚 Learning: AI/ML and data engineering
+- 💬 Ask me about: React, Next.js, Firebase, real-time apps
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=imtiyazakiwat&show_icons=true&hide_border=true&theme=tokyonight&bg_color=00000000" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=imtiyazakiwat&show_icons=true&hide_border=true&bg_color=00000000" />
+  <img src="https://github-readme-stats.vercel.app/api?username=imtiyazakiwat&show_icons=true&hide_border=true" alt="GitHub stats" height="165" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=imtiyazakiwat&layout=compact&hide_border=true&theme=tokyonight&bg_color=00000000" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=imtiyazakiwat&layout=compact&hide_border=true&bg_color=00000000" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=imtiyazakiwat&layout=compact&hide_border=true" alt="Top languages" height="165" />
+</picture>
+</div>
+
+## 🐍 Contribution Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/imtiyazakiwat/imtiyazakiwat/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/imtiyazakiwat/imtiyazakiwat/output/github-snake.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/imtiyazakiwat/imtiyazakiwat/output/github-snake.svg" width="100%" />
+</picture>
+
+<div align="center">
+<br/>
+
+> *"Building useful things, learning every day, and making a positive impact."*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&customColorList=6,11,20&section=footer" width="100%" alt="" />
+</div>
